@@ -72,8 +72,8 @@ body{
 }
 
 /* Zona de diseño de los Titulos*/
-.titulo{
-    margin-bottom: 55px ;
+.tittle{
+    margin-bottom: 20px ;
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
     display: block;
