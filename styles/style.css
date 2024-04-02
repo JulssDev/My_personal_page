@@ -11,7 +11,6 @@ body{
 }
 
 .container_window{
-    padding-top: 30px;
     background-color: rgb(26, 26, 26);
     width: 600px;
     height: 400px;
@@ -21,7 +20,7 @@ body{
 }
 
 .container_tab{
-    background-color: rgb(26, 26, 26);
+    background-color: rgb(26, 26, 26);;
     border: 1px solid;
     border-color: rgb(87, 87, 87);
     border-bottom: none;
@@ -32,6 +31,7 @@ body{
     display: flex;
     align-items: center;
     padding-left: 10px;
+    
 }
 
 .container_pages{
@@ -40,7 +40,33 @@ body{
     align-items: center;
     flex-direction: column;
 }
+.container_numbering{
+    background-color: rgb(26, 26, 26);
+    color: rgb(161, 161, 161);
+    padding-left: 15px;
+    border-right: 2px solid;
+    border-color: rgb(20, 20, 20);
+    padding-right: 18px;
+    width: 2%;
+    height: 94%;
+    float: left;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+}
 
+.container_content{
+    margin-top: 30px;
+    width: 90%;
+}
+
+.container_address{
+    background-color: rgb(26, 26, 26);
+    border-bottom: 2px solid;
+    border-bottom-color: rgb(22, 22, 22);
+    height: 5%;
+    text-align: left;
+    padding-left: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+}
 
 /* Zona de diseño de los Titulos*/
 .titulo{
@@ -49,6 +75,9 @@ body{
     font-family: 'Courier New', Courier, monospace;
     display: block;
 }
+
+/*Zona de tablas*/
+
 
 /* Zona de diseño de las Imagenes*/
 .upwork{
@@ -66,6 +95,12 @@ body{
     width: 20px;
     vertical-align: middle;
     padding-right: 4px;
+}
+
+.html_mini{
+    width: 10px;
+    vertical-align: -2px;
+    padding-right: 3px;
 }
 
 
@@ -87,6 +122,10 @@ a.text_after_img:hover{
 
 
 /* Zona de diseño de los Label*/
+.mini{
+    vertical-align: middle;
+}
+
 .credits{
     position: fixed;
     bottom: 10px;
