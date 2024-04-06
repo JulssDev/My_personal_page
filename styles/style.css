@@ -93,6 +93,7 @@ body{
     border-color: rgb(19, 19, 19);
     border-radius: 0px;
     padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
 }
 .name_person:focus{
     text-align: center;
