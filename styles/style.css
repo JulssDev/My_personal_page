@@ -166,7 +166,23 @@ a.text_after_img:hover{
 
 
 /* Zona de diseño de los Label*/
-.p_sup{
+.p_sup_left{
+    width: 35%;
+    text-align: left;
+    color: antiquewhite;
+    vertical-align: middle;
+}
+
+.p_sup_left{
+    width: 35%;
+    text-align: center;
+    color: antiquewhite;
+    vertical-align: middle;
+}
+
+.p_sup_right{
+    width: 30%;
+    text-align: right;
     color: antiquewhite;
     vertical-align: middle;
 }
