@@ -87,13 +87,19 @@ body{
     color: rgb(212, 212, 212);
     font-family: 'Courier New', Courier, monospace;
     background-color: rgb(26, 26, 26);
-    border: 0px solid;
+    text-align: center;
+    border: 1px solid;
+    border-color: rgb(19, 19, 19);
     border-radius: 0px;
     padding: 10px;
 }
 .name_person:focus{
+    text-align: center;
     background-color: rgb(19, 19, 19);
     border-radius: 0px;
+    border: 0px solid;
+    padding: 10px;
+    color: rgb(0, 225, 255);
     transition: 1000ms;
 }
 
