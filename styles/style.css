@@ -145,7 +145,6 @@ body{
     width: 10px;
     vertical-align: -2px;
     padding-right: 3px;
-    margin: 0;
 }
 
 
@@ -167,6 +166,11 @@ a.text_after_img:hover{
 
 
 /* Zona de diseño de los Label*/
+.p_sup_left,
+.p_sup_mid,
+.p_sup_right{
+    margin: 0;
+}
 .p_sup_left{
     width: 35%;
     text-align: left;
@@ -174,7 +178,7 @@ a.text_after_img:hover{
     vertical-align: middle;
 }
 
-.p_sup_left{
+.p_sup_mid{
     width: 35%;
     text-align: center;
     color: antiquewhite;
