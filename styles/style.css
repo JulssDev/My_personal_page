@@ -74,6 +74,7 @@ body{
 .static_bar{
     width: 100%;
     height: 30px;
+    display: block;
     background-color: rgb(26, 26, 26);
     border-bottom: 1px solid black;
     
