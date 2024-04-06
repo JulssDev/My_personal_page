@@ -71,6 +71,14 @@ body{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
 }
 
+.static_bar{
+    width: 100%;
+    height: 15px;
+    background-color: rgb(26, 26, 26);
+    border-bottom: 1px solid black;
+    
+}
+
 /* Zona de diseño de los Titulos*/
 .tittle{
     margin-bottom: 20px ;
@@ -158,6 +166,11 @@ a.text_after_img:hover{
 
 
 /* Zona de diseño de los Label*/
+.p_sup{
+    color: antiquewhite;
+    
+}
+
 .mini{
     vertical-align: middle;
 }
