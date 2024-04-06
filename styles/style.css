@@ -93,7 +93,8 @@ body{
     border-color: rgb(19, 19, 19);
     border-radius: 0px;
     padding: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    transition: 1000ms;
 }
 .name_person:focus{
     text-align: center;
@@ -107,9 +108,11 @@ body{
 
 .name_person::placeholder{
     color: rgb(218, 218, 218);
+    transition: 1000ms;
 }
 .name_person:focus::placeholder{
     color: rgb(253, 109, 84);
+    transition: 1000ms;
 }
 
 /* Zona de diseño de las Imagenes*/
