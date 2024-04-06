@@ -87,6 +87,7 @@ body{
     color: rgb(212, 212, 212);
     font-family: 'Courier New', Courier, monospace;
     background-color: rgb(26, 26, 26);
+    border: 0px solid;
     border-radius: 0px;
     padding: 10px;
 }
