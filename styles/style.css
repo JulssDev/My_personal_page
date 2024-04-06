@@ -83,6 +83,12 @@ body{
 .form_auth{
     margin-bottom: 10px;
 }
+.name_person{
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;;
+    background-color: black;
+    padding: 10px;
+}
 
 /* Zona de diseño de las Imagenes*/
 .upwork{
