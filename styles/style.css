@@ -84,6 +84,7 @@ body{
     margin-bottom: 10px;
 }
 .name_person{
+    color: rgb(0, 225, 255);
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
     background-color: rgb(26, 26, 26);
