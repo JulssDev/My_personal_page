@@ -84,7 +84,6 @@ body{
     margin-bottom: 10px;
 }
 .name_person{
-    color: rgb(212, 212, 212);
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
     background-color: rgb(26, 26, 26);
@@ -101,7 +100,15 @@ body{
     outline: none;
     padding: 10px;
     color: rgb(0, 225, 255);
+    
     transition: 1000ms;
+}
+
+.name_person::placeholder{
+    color: rgb(253, 109, 84);
+}
+.name_person:focus::placeholder{
+    color: rgb(255, 0, 0);
 }
 
 /* Zona de diseño de las Imagenes*/
